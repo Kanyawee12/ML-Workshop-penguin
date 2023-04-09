@@ -1,4 +1,3 @@
-
 import numpy as np
 import pandas as pd
 import pickle
@@ -8,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 import streamlit as st 
 
 st.title("My ML Worshop")
-tab1, tab2, tab3 = st.tabs(["Panguin Prediction", "Evaluation", "About"])
+tab1, tab2, tab3 = st.tabs(["Panguin Prediction", "Evaluation"])
 
 with tab1:
 
