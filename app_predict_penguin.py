@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 import streamlit as st 
 
 st.title("My ML Worshop")
-tab1, tab2, tab3 = st.tabs(["Panguin Prediction", "Evaluation"])
+tab1, tab2 = st.tabs(["Panguin Prediction", "Evaluation"])
 
 with tab1:
 
